@@ -374,6 +374,10 @@ struct IsometricRenderer {
     }
 
 
+    static void map_terrain(shared_ptr<World> world, shared_ptr<Position> view_pos, IsoAngle angle, int64_t render_distance, string out_path) {
+
+    }
+
     // util
 
     static void block_x_y_z_to_image_x_y(
