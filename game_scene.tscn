@@ -1,0 +1,8 @@
+[gd_scene load_steps=1 format=3 uid="uid://dfvhsosx64wgi"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.5478115, 0.83660185, 0, -0.83660185, 0.5478115, 0, 1.2787614, 3.3130572)
+
+[node name="Game" type="Game" parent="."]

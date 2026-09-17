@@ -1,0 +1,150 @@
+,,,,,
+,TASK,PREDICTION,ACTUAL,HOME PRIORITY,
+,loading player edits on enetering chunk,normal,,,
+,magic,hard,,,
+,world in space spawning,hard,5 weeks,,
+,fix trees and add more assets,normal,,X,
+,spirit realm,hard,2 week,X,
+,bone breaking and injuries + healing,hard,,X,
+,"dying, ghosting back to body, spawn points",normal,,,
+,sound design,normal,,,
+,vehicle building,hard,2 week,,
+,weapon building,hard,,,
+,choose music,normal,,X,
+,alien generation,very hard,5 weeks,,
+,intelligent alien dialog and behavior,very hard,,,
+,traveling wizards,normal,,,
+,building gen,hard,6 weeks,,
+,cothes making / painting,hard,,,
+,skybox gen,hard,1 week,,
+,city gen,hard,,X,
+,schemata move with arrow keys and see preview,hard,1 week,X,
+,combine space -> terrain rendering systems seemlessly,hard,2 week,X,
+,server clients streams for player positions and npc positions,hard,,,
+,"add materials for alien, vehicle, city, and plant gens.",very hard,,X,
+,,,,,
+,electricity and circuts,,,,
+,benevolent gods,,,,
+,good and bad demi-gods,,,,
+,impact craters,,,,
+,volcanos,,,,
+,musical instruments,,,,
+,in game wiki,,,,
+,have kids with npc,,,,
+,reborn as a baby,,,,
+,maps,,,,
+,character limbs and animations,hard,,,
+,,,,,
+,,,,,
+DONE,block rotations based on look direction,normal,1 week,,
+,basic building,normal,1 week,,
+,player stuck fixing,normal,1 day,,
+,optimize terrain loading,hard,1 week,,
+,switching to linux and getting setup again,hard,5 weeks,,
+,erosion,hard,13 weeks,,
+,tree rotation,easy,4 weeks,,
+,block resizing,normal,1 week,,
+,trunk generation,normal,2 weeks,,
+,switch to VSCode,hard,1 week,,
+,Coordinate Tools,hard,1 week,,
+,Downblock Efficiency,normal,2 weeks,,
+,Branch Generation,easy,6 weeks,,
+,Tree Placement,normal,2 weeks,,
+,Player Movement,normal,3 weeks,,
+,Load Chunk on Player Position,hard,4 weeks,,
+,Server Sockets and Infrastructure,hard,3 weeks,,
+,Server Block Placement,normal,3 weeks,,
+,Server Login,normal,2 weeks,,
+,Server Ping,easy,1 week,,
+,Server Captcha,hard,1 week,,
+,Server Register,easy,1 week,,
+,Server Stop,easy,1 week,,
+,river gen,normal,2 weeks,,
+,fluid simulations,hard,2 weeks,,
+,switch to godot,very hard,4 weeks,,
+<meta> color b1=98,13,115
+<meta> color c1=98,13,115
+<meta> color d1=98,13,115
+<meta> color c2=158,145,0
+<meta> color c3=128,74,0
+<meta> color c4=128,74,0
+<meta> color c5=158,145,0
+<meta> color c6=128,74,0
+<meta> color c7=128,74,0
+<meta> color c8=158,145,0
+<meta> color c9=158,145,0
+<meta> color c10=128,74,0
+<meta> color c11=128,74,0
+<meta> color c12=158,145,0
+<meta> color d10=151,161,161
+<meta> color d6=151,161,161
+<meta> color a38=98,13,115
+<meta> color c13=115,13,13
+<meta> color c14=115,13,13
+<meta> color c15=158,145,0
+<meta> color c16=128,74,0
+<meta> color c17=128,74,0
+<meta> color c18=128,74,0
+<meta> color c19=128,74,0
+<meta> color c20=128,74,0
+<meta> color c21=128,74,0
+<meta> color c22=128,74,0
+<meta> color c35=128,74,0
+<meta> color c38=158,145,0
+<meta> color c39=158,145,0
+<meta> color c40=158,145,0
+<meta> color c41=128,74,0
+<meta> color c42=128,74,0
+<meta> color c43=128,74,0
+<meta> color c44=13,115,30
+<meta> color c45=158,145,0
+<meta> color c46=158,145,0
+<meta> color c47=128,74,0
+<meta> color c48=128,74,0
+<meta> color c49=158,145,0
+<meta> color c50=13,115,30
+<meta> color c51=158,145,0
+<meta> color c52=158,145,0
+<meta> color c53=128,74,0
+<meta> color c54=128,74,0
+<meta> color c55=158,145,0
+<meta> color c56=158,145,0
+<meta> color c57=13,115,30
+<meta> color c58=128,74,0
+<meta> color c59=13,115,30
+<meta> color c60=13,115,30
+<meta> color c61=158,145,0
+<meta> color c62=128,74,0
+<meta> color c63=115,13,13
+<meta> color d16=151,161,161
+<meta> color d18=151,161,161
+<meta> color d20=151,161,161
+<meta> color d21=151,161,161
+<meta> color d38=13,115,30
+<meta> color d39=13,115,30
+<meta> color d40=13,115,30
+<meta> color d41=13,115,30
+<meta> color d42=128,74,0
+<meta> color d43=98,13,115
+<meta> color d44=128,74,0
+<meta> color d45=13,115,30
+<meta> color d46=158,145,0
+<meta> color d47=13,115,30
+<meta> color d48=13,115,30
+<meta> color d49=158,145,0
+<meta> color d50=115,13,13
+<meta> color d51=158,145,0
+<meta> color d52=158,145,0
+<meta> color d53=128,74,0
+<meta> color d54=158,145,0
+<meta> color d55=158,145,0
+<meta> color d56=158,145,0
+<meta> color d57=13,115,30
+<meta> color d58=13,115,30
+<meta> color d59=13,115,30
+<meta> color d60=13,115,30
+<meta> color d61=158,145,0
+<meta> color d62=158,145,0
+<meta> color d63=128,74,0
+<meta> color e1=98,13,115
+<meta> color c23=115,13,13

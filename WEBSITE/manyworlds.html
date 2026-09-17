@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Dev</title>
+    <meta name="Game dev log on current projects">
+
+    <script src="templates/navItem.js"></script>
+
+    <style>
+		#body { background-image: url("assets/moss_sparse.png"); background-size: 30%; background-repeat: repeat; background-attachment: fixed; color: rgb(197, 197, 197); font-family: "Press Start 2P", system-ui; font-weight: 400; font-style: normal; }
+
+		#startArea { display: flex; flex-direction: column; align-items: center; }
+
+		#widthSet { display: flex; flex-direction: column; align-items: center; width: 80vw; background-color: rgb(22, 22, 22); }
+
+		#marginSet { margin: 10%; }
+
+		#title { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; flex: 3 1 0%; color: rgb(220, 180, 0); font-size: 1.6em; text-shadow: rgb(22, 22, 22) 2px 2px 4px; }
+
+		#navbar { display: flex; flex-direction: column; justify-content: space-between; align-items: start; }
+
+		.contentsListItem { color: rgb(136, 136, 136); text-decoration: none; font-size: 1.2em; }
+
+		.text { color: rgb(136, 136, 136); font-size: 0.9em; line-height: 1.2; }
+
+		#styleAndAtmosphere { padding: 1rem 0rem; }
+
+		.pic { width: 100%; }
+
+		#element_87394294078242ce { white-space: pre-wrap; }
+
+		#element_98ca0f16b7874e03 { padding: 1rem; width: 50vw; }
+
+		#element_d623e7e71faa47d9 { padding: 1rem; width: 50vw; }
+
+		.style_pic { max-width: 100%; }
+</style>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" id="preconnect1">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" id="preconnect2">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&amp;family=Press+Start+2P&amp;display=swap" id="Press_Start_2p">
+</head>
+
+<body id="body">
+    <div id="startArea">
+        <div id="widthSet">
+
+            <div id="marginSet">
+                <header id="title">
+                    <h1>ManyWorlds</h1>
+                </header>
+
+
+
+                <h2 id="element_9f55e94dcde9406d">Contents</h2>
+
+                <div id="navbar">
+                    <ul>
+                        <li><a class="contentsListItem" href="#intro" id="element_61ff07238e9a4fda">Intro</a></li>
+                        <li><a class="contentsListItem" href="#terrainGen">Terrain Gen</a></li>
+                        <li><a class="contentsListItem" href="#wizardry">Wizardry</a></li>
+                        <li><a class="contentsListItem" href="#devLog">Dev Log</a></li>
+                    </ul>
+                </div>
+
+                <div id="content">
+
+
+                    <div id="intro">
+                        <h2 id="element_06cc7b3a8c994690">Intro</h2>
+                        <p id="element_b1a1717c3ac74ddc" class="text">Manyworlds is a game I've created. It's a
+                            space sandbox game, with procedurally generated worlds, life, buildings, and civilizations.
+                        </p>
+                        <p class="text">
+                            Here's my current list of features that I think would be awesome
+                        </p>
+                        <ul>
+                            <li class="text" id="element_014c937738494513">Worlds are in space, and there are
+                                as many worlds as there are possible seeds (you can travel and explore new worlds)</li>
+                            <li class="text" id="element_cca1d475af254af8">Plant Generation</li>
+                            <li class="text" id="element_5ab97579f99e49bf">Animal Generation</li>
+                            <li class="text">Building Generation</li>
+                            <li class="text">Building with blocks and other shapes</li>
+                            <li class="text" id="element_93cf9b34be1044c4">Vehicle building (build a space
+                                ship!)</li>
+                            <li class="text" id="element_b5d833d4db924b84">Bone Breaking</li>
+                            <li class="text" id="element_deb62f6820754781">Wizardry</li>
+                            <li class="text" id="element_5c5cc25707f24606">Trading And Economies with Aliens
+                            </li>
+                            <li class="text" id="element_6b22a1922bee4af3">Character Custimization</li>
+                            <li class="text" id="element_692c087dfc6e4743">Taming of Animal Aliens</li>
+                            <li class="text">Backflips/Aerial Control</li>
+                            <li class="text">Physics Toys</li>
+                            <li class="text" id="element_4e3be5bb0709474b">Circuits/Redstone style stuff</li>
+                            <li class="text">Clothes/Clothes Designing</li>
+                            <li class="text">Explosives</li>
+                            <li class="text" id="element_72c66a10f6644872">Painting On Blocks</li>
+                            <li class="text">Stealing with Consequences</li>
+                            <li class="text">Alien Wars</li>
+                            <li class="text">Cooking and Potion Making</li>
+                            <li class="text" id="element_1bd9113bcd1e4d60">Hungar Increases Carrying Capacity
+                                (Also makes you larger or thinner)</li>
+                        </ul>
+                        <p class="text" id="element_38bae3b3806043f6">
+                            Eventually I'd also like to have multiplayer. With that I'd like to have these features
+                        </p>
+                        <ul>
+                            <li class="text">Play with LAN or Steam</li>
+                            <li class="text">Online Servers</li>
+                            <li class="text">Run for office on a Planet</li>
+                            <li class="text">Conquer other Planets</li>
+                            <li class="text">Proximity Chat</li>
+                        </ul>
+                        <p class="text">
+                            Here's some other ideas I'm not sure about
+                        </p>
+                        <ul>
+                            <li class="text">Have a Baby?</li>
+                            <li class="text" id="element_d1b5e12af28547eb">Vampirism</li>
+                        </ul>
+                    </div>
+                    <div id="styleAndAtmosphere">
+                        <h2 id="element_1ce5ead61a3e412c">Style and Atmosphere</h2>
+                        <p id="element_32ef2bc61ba64470" class="text">With Manyworlds, we're trying to go for
+                            combination of these styles:</p>
+                        <ul id="element_c0abc42c8d1147fb">
+                            <li id="element_f12cac13f2454bfd" class="text">80s dark fantasy</li>
+                            <li id="element_4eff8517a1a54d76" class="text">retro futurism</li>
+                        </ul>
+                        <p id="element_1eebcb159cf1449f" class="text">Here's some art from online we've grabbed
+                            for inspiration:</p>
+                        <img id="element_087145bda35c4d09" class="style_pic" src="assets/36-23-2-5-20-20-37m.jpg">
+                        <img class="style_pic" src="assets/Screenshot 2024-06-18 123704.png">
+                        <img class="style_pic" src="assets/maxresdefault.jpg">
+                        <img class="style_pic" src="assets/tumblr_a34a47f3bc36c1936046697b8c276e0f_0bb970a4_1280.jpg">
+                        <img class="style_pic" src="assets/51-23-2-5-21-40-59m.jpg">
+                        <img class="style_pic" src="assets/0b731504243b29a2341859db75fb1c93.jpg">
+                        <img class="style_pic" src="assets/1980s_styled_drawing_of_dark_fantasy_by_reshini_dfv5ndr-pre.jpg">
+                        <img class="style_pic" src="assets/0144971-nachher.jpg">
+                        <img class="style_pic" src="assets/bc80719bd57539d300f51a5f205b147f.jpg">
+                        <img class="style_pic" src="assets/elden_rings_80s_style.jpeg">
+                        <img class="style_pic" src="assets/this-specific-80s-dark-fantasy-vibe-v0-kecrnk86nx5f1.webp">
+                        <p id="element_7b61615b8aed4b52" class="text">Here's what I'm thinking kind of gives
+                            this style, but there might be more to it:</p>
+                        <ul id="element_3ea696a1e14d4e17">
+                            <li id="element_db22142492b14771" class="text">darker colors, specifically more
+                                shades of blue and purple</li>
+                            <li id="element_d616528f8c4446b7" class="text">more desaturated colors</li>
+                            <li id="element_da27b8b3e2a8483c" class="text">use of fog and mist</li>
+                        </ul>
+                        <p id="element_298b47ecf1814e07" class="text">At least I think that's what is going on.
+                            I think I do like desaturated colors though sometimes. Like when you look at images from
+                            space a lot of times the planets are sort of dull colors. </p>
+                        <p id="element_b7c62d998e6c4403" class="text">Fog is also really great too. I think
+                            that kinds of adds to ambiance of minecraft actually, even though it's just used to prevent
+                            you seeing past the world edge. </p>
+                        <p id="element_29e446a47da24bc4" class="text">Looking at these pictures it almost looks
+                            like the blue is turned up or something. Or at least there are more blue colors.</p>
+                    </div>
+                    <div id="terrainGen">
+                        <h2 id="element_fa52c690a85a4315">Terrain Gen</h2>
+                        <p class="text" id="element_a8adcf8b63d84b8a"> The game has a minecraft style terrain
+                            gen with some differences:</p>
+                        <ul>
+                            <li class="text">Chunks are generated by seed on demand and never saved</li>
+                            <li class="text" id="element_3428f376298c4485">Chunks are in a heirachy. <a href="#terrainGen">(see explanation down below)</a></li>
+                            <li class="text">World height limits are -12,000 to 12,000 meters</li>
+                            <li class="text">Blocks are 0.8 m cubes instead of 1 m cubes (for more detail work)</li>
+                            <li class="text">Erosion with lakes, streams, rivers (that flow down hill and make sense)
+                            </li>
+                        </ul>
+                        <p class="text">
+                            I've been doing this by using a heirachy of chunks. The first chunks I load in are 2097152
+                            blocks wide.
+                            Each of these is split into 256 chunks that are 131072 blocks wide. Each of these is also
+                            split up and split
+                            up again in this heirachy
+                        </p>
+                        <ul>
+                            <li class="text">2097152</li>
+                            <li class="text">131072</li>
+                            <li class="text">8192</li>
+                            <li class="text">512</li>
+                            <li class="text">64</li>
+                            <li class="text">16</li>
+                            <li class="text">8</li>
+                            <li class="text">4</li>
+                            <li class="text">2</li>
+                            <li class="text">1</li>
+                        </ul>
+                        <p class="text">
+                            This has allowed me to sort of do a level of detail esk thing, where I load in a smaller
+                            amount of actual blocks nearest
+                            to the player, and then load larger and larger place holders for chunks farther away. Here's
+                            one of the early renders I
+                            got working:
+                        </p>
+                        <img class="pic" src="assets/worldGenInitial.png">
+                        <p class="text">
+                            Pretty cool eh! You can see that farther out in the distance the blocks are larger. This
+                            allows me to render out ~10,000m for the
+                            same amount of blocks as rendering 256m in minecraft. I thought this would be nice way to
+                            allow you to see more of a long distance view in the game.
+                            It does come at the cost of blockiness farther out though.
+                        </p>
+                        <p class="text">
+                            The image above was taken before I implemented erosion or did anywork on rendering different
+                            types of blocks like grass or different kinds of rock.
+                            Planning the heirachy was a bit tricky since I had to divide the chunks up evenly for each
+                            sub group. To figure this out I drew this diagram/picture which
+                            I thought was actually kind of pretty to look at as well:
+                        </p>
+                        <img class="pic" src="assets/ChunksMore.png">
+                        <p class="text">
+                            Here the pink squares are 512 block chunks, and then the smallest red squares are the actual
+                            blocks. The player would be in
+                            the center of this image.
+                        </p>
+                        <p class="text">
+                            For the past few months I've been struggling with erosion which turned out to be really
+                            complicated (haha no kidding).
+                        </p>
+                        <br>
+                        <p class="text">
+                            My basic system is the following
+                        </p>
+                        <ul>
+                            <li class="text">Make gradual decents down Terrain</li>
+                            <li class="text">Run rivers down slopes</li>
+                            <li class="text">create a few lakes</li>
+                        </ul>
+                        <p class="text">
+                            Sounds simple right? WRONG!!!
+                        </p>
+                        <br>
+                        <p class="text">
+                            One of the most challenging aspects of this is that I don't load in all the world chunks at
+                            once.
+                        </p>
+                        <p class="text">
+                            I've found that I have to start at the highest level chunk, run the rivers around it's sub
+                            chunks, and at that point agree on where the rivers should connect
+                            between those sub chunks. Tricky!
+                        </p>
+                        <p class="text">
+                            Then once I start generating those sub chunks, I have to make sure I get the river to come
+                            out at the previously agreed upon point. Through many attempts and
+                            stepping with the debugger, I've arrived at this system
+                        </p>
+                        <ul id="element_b6606ecbce38407d">
+                            <li class="text" id="element_911e0327fcc3441a">Start at each sub chunk and make a
+                                gradual downhill slope to the chunk exit</li>
+                            <li class="text">Explore Outwards from chunk exits to make paths</li>
+                            <li class="text">Make the actual rivers through the chunk</li>
+                            <li class="text">Make little rivers from each sub chunk to one of the main rivers</li>
+                            <li class="text">Make some random lakes for fun</li>
+                        </ul>
+                        <p class="text">
+                            Something that really helped was making a way to visualize the chunks while I was in the
+                            debugger. Since I was running the terrain gen continuously, I couldn't view
+                            the terrain in the game, so I made a little tool that printed out the chunk to a file.
+                            Here's a screenshot of the output of this:
+                        </p>
+                        <img class="pic" src="assets/Screenshot 2024-02-19 204008.png" id="element_b7f1e2d12f6d4361">
+                        <p class="text">
+                            Kind of hard to see, but the little arrows indicate the way water is flowing and the number
+                            in the bottom left of each chunk (square) is the height of that chunk.
+                            Key:
+                        </p>
+                        <ul>
+                            <li class="text">Arrows show water flow direction</li>
+                            <li class="text">Numbers next to arrows show the flow amount</li>
+                            <li class="text">Number in the bottom left is the chunk height</li>
+                            <li class="text">Number in the top left is the chunk index (not important)</li>
+                            <li class="text">La means a chunk is a lake</li>
+                        </ul>
+                        <p class="text">
+                            I'm still currently debugging this but as I've got to know and understand this problem I've
+                            been able to simplify my solution a lot. I've noticed with problems like
+                            this, you typically have to create a failed solution so you can get to know the problem
+                            better. Then the second time around you can make a really good solution. Sometimes
+                            it takes more tries than that, but usually I've never had to restart more than once
+                            (thankfully).
+                        </p>
+
+                    </div>
+
+                    <div id="wizardry">
+                        <h2>Wizardry</h2>
+                        <p class="text">
+                            Here's my ideas for wizardry. Currently I haven't done any work on this
+                        </p>
+
+                        <ul>
+                            <li class="text">Spells work by using stuff in another dimension</li>
+                            <li class="text">Raw Materials go in, then anything can come out</li>
+                            <li class="text">Summon lightning from there</li>
+                            <li class="text">Summon fire</li>
+                            <li class="text">Summon any element or material</li>
+                            <li class="text">Healing Spells</li>
+                            <li class="text">Spells are done by moving mouse or joystick to a certain direction</li>
+                            <li class="text">Up + Left is more fire, Lightning, light waves</li>
+                            <li class="text">Up + Right is gases</li>
+                            <li class="text">Left is Liquids different Elements</li>
+                            <li class="text">Right is Solids different Elements</li>
+                            <li class="text">Down is Healing</li>
+                            <li class="text">It's all on a gradient, Down + Right you might heal them with a metal arm
+                            </li>
+                            <li class="text">Center or Joystick click is entering the Dimensional relm</li>
+                            <li class="text">You can go into the dimension, and travel instantly to another place</li>
+                            <li class="text">Inside it look like a dark matrixy kind of place? Maybe non-euclidian
+                                Geometry</li>
+                        </ul>
+                    </div>
+
+
+                    <div id="devLog">
+                        <h2 id="element_082310d9cd7748b2">Dev Log</h2>
+                        <h3 id="element_20ac23ae24c44a37">2/21/2024</h3>
+                        <p class="text" id="element_0ffaa3a3509f4781">
+                            Currently I've been working on the erosion (same as always). I decided to do the river
+                            tracing differently
+                            then I was previously. Now we're starting from outflows and stepping up until we reach all
+                            subchunks in a chunk. This is
+                            much more efficient then trying to walk from each index to an outflow. The old method was
+                            exceptionally complicated
+                            when going through lakes or flat areas, where it isn't clear which way is downhill or
+                            towards the outflow.
+                        </p>
+                        <p class="text" id="element_950eaadfdfe64fc6">
+                            Either way, I have high hopes for this method which seems to be less complicated and more
+                            efficient. I also think it
+                            might be less likely for infinite loops or other bad crashes to happen. We'll see though.
+                        </p>
+                        <h3 id="element_faca5cf44ac74204">9/22/2025</h3>
+                        <p class="text" id="element_fcd1780dd8c94a1f">Well it appears I wasn't very diligent
+                            with this dev log 😂.
+
+                            But a lot has changed since febuary last year. I finished erosion for the most part and have
+                            got that working pretty well I think. </p>
+                        <p class="text" id="element_37838c81eada486d">I've also done a few more major things:
+                        </p>
+                        <ul id="element_2f1b9e9b71fa49a3">
+                            <li id="element_cf1cf168e42b4982" class="text">Created the server for multiplayer,
+                                though not called or run by the game yet</li>
+                            <li id="element_6219829668404d22" class="text">Made plant generation</li>
+                            <li id="element_6cf7f63bc1b4478c" class="text">Created a handful of tracks for game
+                                music</li>
+                            <li id="element_0f82c6d0d8c54bfd" class="text">Created basic setup for magic
+                                casting</li>
+                            <li id="element_4354eb359ef94dad" class="text">Got placing and deleting blocks
+                                working</li>
+                            <li id="element_8e6ea608b02b4ae9" class="text">Created basic AI for talking with
+                                NPCs. (still working on filling this out with our training process)</li>
+                            <li id="element_491118991a7c4352" class="text">Got character editing working for
+                                the most part</li>
+                        </ul>
+                        <p class="text" id="element_272641ba99394d43">Currently I'm working on fluid simulation
+                            which has been pretty fun. These aren't full fluid simulations, and the water doesn't
+                            respond quickly. So it's kind of like a real fluid simulation but in slow motion and not as
+                            reactive. Kind of had to do this to avoid burning out everyone's computers. But if you
+                            divert a river you might be able to create a flood which I think will be fun.</p>
+                        <p class="text" id="element_d1a9e4bc472b440c">I've also started work on building
+                            generation. So far I've mostly just done research about architecture and I'm trying to get a
+                            handle on how to go about this. But I think I've got a pretty good idea. </p>
+                        <p class="text" id="element_eac7ee95893d4657">So I've been switching back and forth
+                            between these two things. I've found that switching between projects is kind of nice
+                            actually. Keeps things fresh and helps with motivation.</p>
+                        <p class="text" id="element_9ce34019d8084b43">Either way, I think the game is really
+                            starting to come together and I think it might not be too long before it's time to put out
+                            an initial release. Maybe I already could, but I think it'd be good to have more of the
+                            basic features complete so that the game is still interesting in the initial release. Kind
+                            of cool though, this is the longest I've ever stuck with a project! I think I won't give up
+                            at this point.</p>
+                        <h3 id="element_57de1a0218984412">10/28/2025</h3>
+                        <p class="text" id="element_e5d11b8c4d5e485d">Looks like it's been a while again, so
+                            I'll make another entry. Maybe I should have made another entry in a months time, but
+                            probably better than a 1.5 year hiatus 😂!</p>
+                        <p class="text" id="element_035a141bc5384c7f">The biggest change currently is that I
+                            have switched to Godot! I'm still wondering if that was the right move, but I think it has
+                            some good benefits:
+                        </p>
+                        <ul id="element_20ea393292674a1f">
+                            <li id="element_3727eb58b33547ff" class="text">Godot is simpler and less bulky. I
+                                can easily keep the entire engine executable inside the project itself</li>
+                            <li id="element_90c275fb7dc048c9" class="text">Godot is free and has no licensing
+                            </li>
+                            <li id="element_5feaeafd24ad41f9" class="text">My code can largely be imported into
+                                Godot as you can use c++</li>
+                            <li id="element_06f77f22be0141b1" class="text">You can create meshes completely in
+                                code which makes it so I don't have to manage assets</li>
+
+
+
+                        </ul>
+                        <p class="text" id="element_8c297a8309334e70">The switch was largely spurred when I
+                            finished fluid simulations and was looking to add a new asset for a water block in unreal.
+                            Some reason everything was broken in the editor and I couldn't create a new asset.
+                            (Something to do with opening an old project in an upgraded version of the editor)</p>
+                        <p class="text" id="element_7c3d3b47d4e84038">I got that fixed by creating a new
+                            project and copying things bascially, but that got me down the road of creating meshes
+                            purely in code. And it turns out Godot can do that where it's very challenging or impossible
+                            to do in unreal (at least at runtime).</p>
+                        <p class="text" id="element_30c2c6fb7b42457c">I think typically you wouldn't want to
+                            create assets in code, but since I'm just making everything from blocks it makes sense I
+                            think. </p>
+                        <p class="text" id="element_b2df47f446054e33">But yeah, got pretty frustrated with
+                            Unreal, and saw some benefits to Godot so I made the switch. So far I've got terrain gen up
+                            and running in Godot. It's pretty performant so far and seems to run just as fast as it did
+                            in unreal which is great!</p>
+                        <p class="text" id="element_2987e347f2554bff">I also got my player controller code
+                            translated mostly, and I'm currently working on block editing stuff. However I did run into
+                            issues with getting a forward vector of my camera. Some reason it's all wonky even though
+                            the camera appears to look in the correct directions during gameplay. Not sure what's up
+                            there but I think I found a work around.</p>
+                        <p class="text" id="element_fa3a9fc9a1a44548">But yeah it's kind of been a relief to
+                            switch to Godot honestly, I love how much more simple it is compared to Unreal.</p>
+                        <p class="text" id="element_b1a9b60e44444cf8">So once I finish the transition I'll
+                            finish up fluid simulations and will be on to building/city generation which I'm excited
+                            about. </p>
+                    <h3 id="element_87394294078242ce">12/10/2025
+</h3><p class="text" id="element_8d20aed974c24cb3">I finished translating to Godot! Took like 4 weeks unfortunately. We'll have to see if it's worth it but things are moving a lot faster in Godot, mostly due to it being lightweight and quick to startup.</p><p class="text" id="element_cb51dbc839e04889">So I actually finished fluid simulations! Pretty much anyway, I think I saw a bug but that's besides the point. </p><p class="text" id="element_96724747f04d4a60">Initially it was kind of rough and just made itself into a pyramid 😂</p><img id="element_98ca0f16b7874e03" src="assets/pyramid_fluid_sim.png"><p class="text" id="element_64bfbb5912564c12">But then I got it working:</p><img id="element_d623e7e71faa47d9" src="assets/working_rivers.png"><p class="text" id="element_47ec7688b46044a3">Originally my algorithm was to pick random blocks each frame and add a new water block next to them. That's what gave me the pyramid. Turns out the best algorithm was to walk a block down the hill basically.</p><p class="text" id="element_1503482e5ecb4a4b">Now I'm working on building generation. I think it might not actually be too bad. Hopefully the buildings don't all look the same hehe.</p><p class="text" id="element_c78e2bd0731a4fc4">But yeah we're moving boy!</p></div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>

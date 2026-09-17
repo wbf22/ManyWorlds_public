@@ -1,0 +1,50 @@
+Space ship max speed
+- Earth is 150 million km from the sun
+- the speed of light is 299,792 km/s
+- we'll say the max speed of a ship is 30% of that or ~100,000 km/s
+- time to sun from earth: 
+    + 1500 s or 25 min
+- time to moon from earth:
+    + 4 s
+- time to mars from earth:
+    + 546 s or 9 min
+- from relativity, your time on the ship will be shorter than the rest of space (1 - percent_speed_of_light^2)^1/2
+    + 1 s becomes 0.9539 s on the ship
+- stars in front may appear brighter, while stars behind will appear somewhat dimmer and stretched.
+- KE = (
+          1/(1-v^2/c^2)^1/2 - 1
+       )
+       * m * c^2
+    + m=massOfObject kg, c=speedOfLight m/s, v=objectVelocity m/s
+- Boeing 747 is about 447,700 kg
+- KE of a spaceship 30% speed of light
+- 0.04829 * 447,700 * 299,792^2 = 1,943,051,800,104,749 j or 1,943,051,800 mj
+- average per capita energy is 43 million mj per year
+- so that'd be the amount of energy for 45 people for an entire year
+
+
+
+
+Max Height and distances
+- max reccomended for unreal engine is 20 km
+- or coordinates above 2000000 (unreal is in cm)
+- for our build height it would be 20,000 half blocks (our half blocks are really 1 meter) 
+- or just 10,000 meters up
+- earth's atmosphere is at 10% at about 30 km
+
+
+Seeds and universe/galaxy
+- milky way is 120,000 light years across
+- Andromeda is 2,500,000 light years away
+- the observalbe universe is 46,500,000,000 light years across
+- Alpha Centauri is 4 light years away
+- in the center of the galaxy, stars can be light months or weeks away from each other
+- seed format:
+    + <12 digits of x coor>:<12 digits of y coor>:<12 digits of z coor>
+    + the coordinates are in light years
+- this is hashed surrounding coordinates are explored
+- this will be used to find the galaxy and then the nearest solar systems to the provided coordinates
+- each subsequent solar system will be explored until a world of the desired type if found
+
+
+    

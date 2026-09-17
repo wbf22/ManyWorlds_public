@@ -1,0 +1,15 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+build/
+Godot_v4.5-stable_linux.x86_64
+.DS_Store
+.sconsign.dblite
+bottlenecks
+perf.data
+perf.data.old
+demo/
+bin/*
+!bin/gdexample.gdextension
+!bin/gdexample.gdextension.uid
+src/TEST/output/

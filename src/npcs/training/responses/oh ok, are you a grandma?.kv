@@ -1,0 +1,31 @@
+value=oh ok, are you a grandma?
+options=[
+    yes!
+    not really
+]
+options_to_state_uuid_to_attribute_mod={
+    not really={
+        5b406f69-a1a3-4e74-936c-2628ae444a82=[
+            {
+                attribute=anger_mood
+                amount=0.1
+            }
+        ]
+    }
+    yes!={
+        fc4b8f5a-8fbb-4de3-a00d-a8b9f00a281c=[
+            {
+                attribute=friendship
+                amount=0.1
+            }
+        ]
+    }
+}
+options_to_state_uuid_response={
+    not really={
+        5b406f69-a1a3-4e74-936c-2628ae444a82=not really
+    }
+    yes!={
+        fc4b8f5a-8fbb-4de3-a00d-a8b9f00a281c=yes!
+    }
+}

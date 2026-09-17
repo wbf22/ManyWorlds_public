@@ -1,0 +1,43 @@
+value=you're beautiful <OTHER_NPC_NAME>
+options=[
+    oh you thank you
+    i love you KISS
+]
+options_to_state_uuid_to_attribute_mod={
+    i love you KISS={
+        a3e0e36c-984e-4c69-b8ad-105dfbc00c78=[
+            {
+                attribute=romance
+                amount=0.1
+            }
+            {
+                attribute=trust
+                amount=0.1
+            }
+        ]
+    }
+    oh you thank you={
+        f22c9687-808d-4c37-8fa7-5b07be947e5b=[
+            {
+                attribute=happiness_mood
+                amount=0.5
+            }
+            {
+                attribute=romance
+                amount=0.1
+            }
+            {
+                attribute=friendship
+                amount=1
+            }
+        ]
+    }
+}
+options_to_state_uuid_response={
+    i love you KISS={
+        a3e0e36c-984e-4c69-b8ad-105dfbc00c78=i love you KISS
+    }
+    oh you thank you={
+        f22c9687-808d-4c37-8fa7-5b07be947e5b=oh you thank you
+    }
+}

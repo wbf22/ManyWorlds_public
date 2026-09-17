@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" id="html" style="background-color: rgb(255, 255, 255); margin: 0px; padding: 0px; width: 100%;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <base target="_self">
+
+
+    <style>
+        #html {
+            background-color: rgb(255, 255, 255);
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #header {
+            padding: 0rem;
+            margin: 0px;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #body {
+            margin: 0px;
+            padding: 0px;
+            min-height: 100vh;
+        }
+
+        #element_f66ae3ac2d2f4a49 {
+            padding: 1rem;
+            width: 1rem;
+            height: 1rem;
+            background-color: rgb(236, 233, 65);
+            border-radius: 2rem;
+            position: relative;
+            top: 50vh;
+            left: 0vw;
+            animation-name: sun;
+            /* 
+                adjust the speed here for different sun speeds 
+            
+                Equations:
+                g=ω^2R
+                T=2π/ω
+
+                T=2π/sqrt(g/R)
+
+                54s = 3km ring (min for dizziness)
+                70s = 5km ring
+                140s = 20km ring
+
+            */
+            animation-duration: 54s; 
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes sun {
+            0% {
+                top: 50vh;
+                left: 0vw;
+            }
+
+            25% {
+                top: 40vh;
+                left: 25vw;
+            }
+
+            50% {
+                top: 35vh;
+                left: 50vw;
+            }
+
+            75% {
+                top: 40vh;
+                left: 75vw;
+            }
+
+            100% {
+                top: 50vh;
+                left: 95vw;
+            }
+        }
+    </style>
+</head>
+
+<body id="body">
+
+    <div id="header">
+
+        <div id="element_f66ae3ac2d2f4a49"></div>
+    </div>
+
+
+
+
+</body>
+
+</html>

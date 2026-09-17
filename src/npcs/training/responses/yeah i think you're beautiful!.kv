@@ -1,0 +1,35 @@
+value=yeah i think you're beautiful!
+options=[
+    oh thanks <OTHER_NPC_NAME>
+    oh really?
+]
+options_to_state_uuid_to_attribute_mod={
+    oh really?={
+        8c8b75a0-8047-45fe-8484-fa55104fce5a=[
+            {
+                attribute=friendship
+                amount=0.1
+            }
+            {
+                attribute=romance
+                amount=0.4
+            }
+        ]
+    }
+    oh thanks <OTHER_NPC_NAME>={
+        90b122d3-9cf2-4de2-b4f8-5b6400a1ad51=[
+            {
+                attribute=happiness_mood
+                amount=0.2
+            }
+        ]
+    }
+}
+options_to_state_uuid_response={
+    oh really?={
+        8c8b75a0-8047-45fe-8484-fa55104fce5a=oh really?
+    }
+    oh thanks <OTHER_NPC_NAME>={
+        90b122d3-9cf2-4de2-b4f8-5b6400a1ad51=oh thanks <OTHER_NPC_NAME>
+    }
+}
